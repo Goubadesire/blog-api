@@ -25,6 +25,6 @@ export class AuthService {
 
         const { passwordHash, ...result } = user
 
-        return user
+        return result
     }
 }
